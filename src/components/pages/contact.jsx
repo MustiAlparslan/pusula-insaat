@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
+    <div className="min-h-screen flex flex-col  mt-6  items-center justify-center bg-gray-100 p-6">
       {/* Logo */}
       <motion.div
         className="mb-12"

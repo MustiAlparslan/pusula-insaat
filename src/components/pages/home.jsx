@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -44,7 +44,7 @@ export default function Home() {
           </motion.p>
           {/* CTA Butonu */}
           <motion.a
-            href="#contact"
+            href="mailto:info@pusulapi.com"
             className="mt-6 inline-block py-3 px-8 rounded-full text-white font-bold shadow-lg transition transform hover:scale-105"
             style={{
               background: "linear-gradient(to right, #1D4ED8, #22C55E)",
@@ -86,9 +86,10 @@ export default function Home() {
         >
           <h2 className="text-3xl font-bold text-center mb-8">Projelerimiz</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[{ name: "Atayıldız Plaza 1", location: "Ankara", image: "https://i.imgur.com/iln8oeM.png" },
-            { name: "Ankara Etlik Sağlık Kampüsü", location: "Ankara", image: "https://i.imgur.com/2nL9lwD.png" },
-            { name: "Fethiye Özyer Merkez Ofis", location: "Muğla", image: "https://i.imgur.com/U0v42uN.jpeg" },
+            {[
+              { name: "Atayıldız Plaza 1", location: "Ankara", image: "https://i.imgur.com/iln8oeM.png" },
+              { name: "Ankara Etlik Sağlık Kampüsü", location: "Ankara", image: "https://i.imgur.com/2nL9lwD.png" },
+              { name: "Fethiye Özyer Merkez Ofis", location: "Muğla", image: "https://i.imgur.com/U0v42uN.jpeg" },
             ].map((project, index) => (
               <motion.div
                 key={index}
@@ -111,6 +112,5 @@ export default function Home() {
         </motion.div>
       </section>
     </>
-
-  )
+  );
 }
