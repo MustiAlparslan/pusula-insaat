@@ -6,9 +6,9 @@ export const ongoing_data = [
       date: "01 Ekim 2023",
       category: "Konut",
       imgUrls: [
-        "https://i.imgur.com/xeWecIe.jpeg",
-        "https://i.imgur.com/xeWecIe.jpeg",
-        "https://i.imgur.com/xeWecIe.jpeg"
+       'https://i.imgur.com/b8N1EHo.jpeg',
+        'https://i.imgur.com/ActXZVG.jpeg',
+        'https://i.imgur.com/HDujsxl.jpeg',
       ],
     },
     {
@@ -18,9 +18,11 @@ export const ongoing_data = [
       date: "15 Ağustos 2023",
       category: "Eğitim",
       imgUrls: [
-        "https://i.imgur.com/ITUX6sL.jpeg",
-        "https://i.imgur.com/ITUX6sL.jpeg",
-        "https://i.imgur.com/ITUX6sL.jpeg"
+       'https://i.imgur.com/ITUX6sL.jpeg',
+        'https://i.imgur.com/wcD6foz.jpeg',
+        'https://i.imgur.com/2nK5ni0.jpeg',
+        'https://i.imgur.com/WLHrgB5.jpeg',
+        'https://i.imgur.com/RiUpwS6.jpeg',
       ],
     },
     {
@@ -30,9 +32,9 @@ export const ongoing_data = [
       date: "20 Mayıs 2023",
       category: "Ofis",
       imgUrls: [
-        "https://i.imgur.com/15CT6Hw.jpeg",
-        "https://i.imgur.com/15CT6Hw.jpeg",
-        "https://i.imgur.com/15CT6Hw.jpeg"
+        'https://i.imgur.com/15CT6Hw.jpeg',
+        'https://i.imgur.com/8DwyzAy.jpeg',
+        'https://i.imgur.com/CdXazoZ.jpeg',
       ],
     },
     {
@@ -42,9 +44,9 @@ export const ongoing_data = [
       date: "30 Aralık 2022",
       category: "Ticari",
       imgUrls: [
-        "https://imgur.com/P5kERR4.jpeg",
-        "https://imgur.com/P5kERR4.jpeg",
-        "https://imgur.com/P5kERR4.jpeg"
+       'https://imgur.com/P5kERR4.jpeg',
+        'https://i.imgur.com/OW5fzjw.png',
+        'https://i.imgur.com/YHOf25z.jpeg',
       ],
     },
     {
@@ -54,9 +56,9 @@ export const ongoing_data = [
       date: "10 Eylül 2023",
       category: "Etkinlik",
       imgUrls: [
-        "https://i.imgur.com/6ouINg2.jpeg",
-        "https://i.imgur.com/6ouINg2.jpeg",
-        "https://i.imgur.com/6ouINg2.jpeg"
+        'https://i.imgur.com/6ouINg2.jpeg',
+        'https://i.imgur.com/8UZ29pz.jpeg',
+        'https://i.imgur.com/pVt6XPR.jpeg',
       ],
     },
     {
@@ -66,9 +68,9 @@ export const ongoing_data = [
       date: "05 Kasım 2022",
       category: "Ofis",
       imgUrls: [
-        "https://i.imgur.com/WK1jgOi.png",
-        "https://i.imgur.com/WK1jgOi.png",
-        "https://i.imgur.com/WK1jgOi.png"
+        'https://i.imgur.com/WK1jgOi.png',
+        'https://i.imgur.com/K2D78LF.jpeg',
+        'https://i.imgur.com/vz8JwB4.jpeg',
       ],
     },
   ];

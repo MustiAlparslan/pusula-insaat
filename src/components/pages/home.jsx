@@ -70,7 +70,7 @@ export default function Home () {
         >
           <h2 className='text-3xl font-bold mb-4'>Hakkımızda</h2>
           <p className='text-lg text-gray-600'>
-            Pusula Yapı, dünya standartlarında projeler geliştiren ve müşteri
+            Pusula Alüminyum, dünya standartlarında projeler geliştiren ve müşteri
             memnuniyetini öncelik olarak belirleyen yenilikçi bir inşaat
             firmasıdır. Vizyonumuz, inşaat sektöründe fark yaratmaktır.
           </p>

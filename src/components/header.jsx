@@ -39,7 +39,7 @@ export default function Header () {
           <motion.h1
             className={`text-2xl font-bold transition duration-300 ${textColor}`}
           >
-            Pusula Yapı
+            Pusula Alüminyum
           </motion.h1>
         </Link>
         {/* Hamburger Menü */}

@@ -9,7 +9,7 @@ export default function Footer() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
             >
-                &copy; 2024 Pusula Yapı. Tüm Hakları Saklıdır.
+                &copy; 2024 Pusula Alüminyum. Tüm Hakları Saklıdır.
             </motion.p>
         </footer>
     )
