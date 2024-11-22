@@ -5,6 +5,11 @@ export const ongoing_data = [
       img: "https://i.imgur.com/xeWecIe.jpeg",
       date: "01 Ekim 2023",
       category: "Konut",
+      imgUrls: [
+        "https://i.imgur.com/xeWecIe.jpeg",
+        "https://i.imgur.com/xeWecIe.jpeg",
+        "https://i.imgur.com/xeWecIe.jpeg"
+      ],
     },
     {
       id: 2,
@@ -12,6 +17,11 @@ export const ongoing_data = [
       img: "https://i.imgur.com/ITUX6sL.jpeg",
       date: "15 Ağustos 2023",
       category: "Eğitim",
+      imgUrls: [
+        "https://i.imgur.com/ITUX6sL.jpeg",
+        "https://i.imgur.com/ITUX6sL.jpeg",
+        "https://i.imgur.com/ITUX6sL.jpeg"
+      ],
     },
     {
       id: 3,
@@ -19,6 +29,11 @@ export const ongoing_data = [
       img: "https://i.imgur.com/15CT6Hw.jpeg",
       date: "20 Mayıs 2023",
       category: "Ofis",
+      imgUrls: [
+        "https://i.imgur.com/15CT6Hw.jpeg",
+        "https://i.imgur.com/15CT6Hw.jpeg",
+        "https://i.imgur.com/15CT6Hw.jpeg"
+      ],
     },
     {
       id: 4,
@@ -26,6 +41,11 @@ export const ongoing_data = [
       img: "https://imgur.com/P5kERR4.jpeg",
       date: "30 Aralık 2022",
       category: "Ticari",
+      imgUrls: [
+        "https://imgur.com/P5kERR4.jpeg",
+        "https://imgur.com/P5kERR4.jpeg",
+        "https://imgur.com/P5kERR4.jpeg"
+      ],
     },
     {
       id: 5,
@@ -33,6 +53,11 @@ export const ongoing_data = [
       img: "https://i.imgur.com/6ouINg2.jpeg",
       date: "10 Eylül 2023",
       category: "Etkinlik",
+      imgUrls: [
+        "https://i.imgur.com/6ouINg2.jpeg",
+        "https://i.imgur.com/6ouINg2.jpeg",
+        "https://i.imgur.com/6ouINg2.jpeg"
+      ],
     },
     {
       id: 6,
@@ -40,6 +65,11 @@ export const ongoing_data = [
       img: "https://i.imgur.com/WK1jgOi.png",
       date: "05 Kasım 2022",
       category: "Ofis",
+      imgUrls: [
+        "https://i.imgur.com/WK1jgOi.png",
+        "https://i.imgur.com/WK1jgOi.png",
+        "https://i.imgur.com/WK1jgOi.png"
+      ],
     },
   ];
   

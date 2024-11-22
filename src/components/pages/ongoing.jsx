@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ongoing_data as projects } from '../../data/ongoing-data'
+import { useNavigate } from 'react-router-dom'
 
 export default function RefactoredOngoing () {
   const [filteredProjects, setFilteredProjects] = useState(projects)
   const [selectedFilter, setSelectedFilter] = useState('')
   const [showPlaceholders, setShowPlaceholders] = useState(true)
+  const navigate = useNavigate()
 
   useEffect(() => {
     if (!selectedFilter) {
@@ -34,9 +36,7 @@ export default function RefactoredOngoing () {
             "url('https://images.unsplash.com/photo-1625722662233-297060231b85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
         }}
       >
-        {/* Siyah Opak Katman */}
         <div className='absolute inset-0 bg-black bg-opacity-40'></div>
-        {/* Metin İçeriği */}
         <div className='relative max-w-7xl mx-auto h-full flex flex-col justify-center items-start px-6'>
           <motion.h1
             className='text-3xl sm:text-5xl font-bold text-white mb-2'
@@ -91,12 +91,16 @@ export default function RefactoredOngoing () {
             : filteredProjects.map((project, index) => (
                 <motion.div
                   key={project.id}
-                  className='relative bg-white w-[90%] sm:w-[45%] lg:w-[30%] rounded-xl overflow-hidden shadow-md group transform transition-transform hover:scale-105'
+                  onClick={() =>
+                    navigate(`/details/${project.id}`, {
+                      state: { project }
+                    })
+                  }
+                  className='relative bg-white w-[90%] sm:w-[45%] lg:w-[30%] rounded-xl overflow-hidden shadow-md group transform transition-transform hover:scale-105 cursor-pointer'
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.2 }}
                 >
-                  {/* Görsel */}
                   <div className='h-48 overflow-hidden'>
                     <img
                       src={project.img}
@@ -105,7 +109,6 @@ export default function RefactoredOngoing () {
                     />
                   </div>
 
-                  {/* Metin Bilgisi */}
                   <div className='p-4'>
                     <h2 className='text-xl font-semibold text-gray-800'>
                       {project.name}

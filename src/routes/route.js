@@ -1,66 +1,71 @@
-import { Navigate } from "react-router-dom";
-import MainLayout from "../layouts/mainlayout";
-import ErrorPage from "../components/pages/Error";
-import Home from "../components/pages/home";
-import Contact from "../components/pages/contact";
-import About from "../components/pages/about";
-import References from "../components/pages/references";
-import Ongoing from "../components/pages/ongoing";
+import { Navigate } from 'react-router-dom'
+import MainLayout from '../layouts/mainlayout'
+import ErrorPage from '../components/pages/Error'
+import Home from '../components/pages/home'
+import Contact from '../components/pages/contact'
+import About from '../components/pages/about'
+import References from '../components/pages/references'
+import Ongoing from '../components/pages/ongoing'
+import ImgDetails from '../components/pages/img-details'
 
 const routes = [
-    {
-        path: "/",
-        element: (
-            <MainLayout>
-                <Home />
-            </MainLayout>
-        ),
-    },
-    {
-        path: '/contact',
-        element: (
-            <MainLayout>
-                <Contact />
-            </MainLayout>
-        )
+  {
+    path: '/',
+    element: (
+      <MainLayout>
+        <Home />
+      </MainLayout>
+    )
+  },
+  {
+    path: '/contact',
+    element: (
+      <MainLayout>
+        <Contact />
+      </MainLayout>
+    )
+  },
+  {
+    path: '/about',
+    element: (
+      <MainLayout>
+        <About />
+      </MainLayout>
+    )
+  },
+  {
+    path: '/references',
+    element: (
+      <MainLayout>
+        <References />
+      </MainLayout>
+    )
+  },
+  {
+    path: '/details/:id',
+    element: (
+      <MainLayout>
+        <ImgDetails />
+      </MainLayout>
+    )
+  },
+  {
+    path: '/ongoing',
+    element: (
+      <MainLayout>
+        <Ongoing />
+      </MainLayout>
+    )
+  },
 
-    },
-    {
-        path: '/about',
-        element: (
-            <MainLayout>
-                <About />
-            </MainLayout>
-        )
+  {
+    path: '/not-found',
+    element: <ErrorPage />
+  },
+  {
+    path: '*',
+    element: <Navigate to='/not-found' />
+  }
+]
 
-    },
-    {
-        path: '/references',
-        element: (
-            <MainLayout>
-                <References />
-            </MainLayout>
-        )
-
-    },
-    {
-        path: '/ongoing',
-        element: (
-            <MainLayout>
-                <Ongoing />
-            </MainLayout>
-        )
-
-    },
-
-    {
-        path: "/not-found",
-        element: <ErrorPage />,
-    },
-    {
-        path: "*",
-        element: <Navigate to="/not-found" />,
-    },
-];
-
-export default routes;
+export default routes
