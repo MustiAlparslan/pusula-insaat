@@ -81,7 +81,7 @@ export default function Contact() {
         <div className="w-full lg:w-auto">
           <iframe
             title="Google Map Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.2180194899437!2d32.84504817608161!3d39.96462037941996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f5ecb1b37b3%3A0xb66d52ab8d020b93!2sAz%C4%B1k%20Sk.%20No%3A4%2C%2006010%20Ke%C3%A7i%C3%B6ren%2FAnkara!5e0!3m2!1str!2str!4v1690000000000!5m2!1str!2str"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.3160881671056!2d32.739305099999996!3d39.990225699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3498a55f51e23%3A0xc773c1dd5d29430!2sSerhat%2C%201476.%20Sk.%20No%3A8%20D%3A36%2026%2C%2006374%20Yenimahalle%2FAnkara!5e1!3m2!1str!2str!4v1732275798261!5m2!1str!2str"
             width="100%"
             height="300"
             style={{ border: 0 }}
