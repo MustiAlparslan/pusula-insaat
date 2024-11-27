@@ -57,7 +57,7 @@ export default function Contact() {
             <div className="flex items-center">
               <span className="text-blue-600 mr-3">✉️</span>
               <a
-                href="mailto:info@pusulaalüminyum.com.tr"
+                href="mailto:info@pusulaalüminyum.org.tr"
                 className="hover:underline hover:text-blue-500 transition-colors"
               >
                 info@pusulaalüminyum.org.tr
