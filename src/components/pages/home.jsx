@@ -44,7 +44,7 @@ export default function Home () {
           </motion.p>
           {/* CTA Butonu */}
           <motion.a
-            href='mailto:info@pusulapi.com'
+            href='mailto:info@pusulaaluminyum.org.tr'
             className='mt-6 inline-block py-3 px-8 rounded-full text-white font-bold shadow-lg transition transform hover:scale-105'
             style={{
               background: 'linear-gradient(to right, #1D4ED8, #22C55E)',

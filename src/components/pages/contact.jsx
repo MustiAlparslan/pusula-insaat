@@ -60,7 +60,7 @@ export default function Contact() {
                 href="mailto:info@pusulaalüminyum.com.tr"
                 className="hover:underline hover:text-blue-500 transition-colors"
               >
-                info@pusulaalüminyum.com.tr
+                info@pusulaalüminyum.org.tr
               </a>
             </div>
             <div className="flex items-center">
